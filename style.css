@@ -15,7 +15,7 @@ body {
 }
 
 .outer {
-  background-color: #fff;
+  background-color:beige;
   padding: 40px;
   border-radius: 20px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
@@ -29,7 +29,7 @@ h1 {
 }
 
 button {
-  background-color: #ff6f61;
+  background-color:cadetblue;
   color: white;
   border: none;
   padding: 15px 25px;
@@ -48,4 +48,22 @@ button:hover {
 h3{
   margin-top:5px;
   color:cornflowerblue
+}
+.score{
+  margin-top:20px;
+  color:chocolate;
+  font-weight:bold;
+  display:flex;
+  flex-direction:initial;
+}
+
+.reset{
+background-color:#333;
+}
+.reset:hover{
+  background-color:#0c0c0c;
+}
+.img{
+  height:75px;
+  width:75px;
 }
