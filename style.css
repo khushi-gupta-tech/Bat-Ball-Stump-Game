@@ -51,14 +51,13 @@ h3{
 }
 .score{
   margin-top:20px;
-  color:chocolate;
+  color:darkcyan;
   font-weight:bold;
-  display:flex;
-  flex-direction:initial;
 }
 
 .reset{
 background-color:#333;
+margin-top:20px;
 }
 .reset:hover{
   background-color:#0c0c0c;
