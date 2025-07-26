@@ -11,8 +11,8 @@ let score = {
     tie:0
 }
 function sco(win,lose,tie){
-    scores.innerHTML = `Win: ${win} <br>
-                        Lose: ${lose} <br>
+    scores.innerHTML = `Win: ${win} &nbsp;
+                        Lose: ${lose} &nbsp;
                         Tie: ${tie}`
 }
 function compare(userChoice, computerChoice) {
